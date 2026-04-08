@@ -97,7 +97,7 @@ const CTF_DATA = {
   },
   "miscellaneous": {
     title: "Miscellaneous",
-    description: "Miscellaneous challenges that don’t fit into specific categories. May include logic puzzles, OSINT, scripting, or general problem-solving tasks.",
+    description: "General challenges that combine different skills such as searching, decoding, scripting, and logical thinking.",
     challenges: [
       {
         id: "misc-001",
