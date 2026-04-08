@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CTF For Exposure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>CTF For Exposure</h1>
+      <p>Simple challenge board by category. No login. Just pick a category and start solving.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="category-view">
+      <h2>Categories</h2>
+      <div id="category-grid" class="grid two-col"></div>
+    </section>
+
+    <section id="challenge-view" class="hidden">
+      <div class="section-head">
+        <button id="back-btn" class="btn secondary">← Back</button>
+        <div>
+          <h2 id="category-title"></h2>
+          <p id="category-desc" class="muted"></p>
+        </div>
+      </div>
+      <div id="challenge-list" class="challenge-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
