@@ -94,6 +94,22 @@ const CTF_DATA = {
         flag: "flag{c2_domain_spotted}"
       }
     ]
+  },
+  "miscellaneous": {
+    title: "Miscellaneous",
+    description: "Miscellaneous challenges that don’t fit into specific categories. May include logic puzzles, OSINT, scripting, or general problem-solving tasks.",
+    challenges: [
+      {
+        id: "misc-001",
+        title: "Who is dat",
+        difficulty: "Easy",
+        instruction: "Review the script and identify the hardcoded command-and-control domain or malicious behavior clue.",
+        files: [
+          { name: [] }
+        ],
+        flag: "flag{misc_m1}"
+      }
+    ]
   }
 };
 
