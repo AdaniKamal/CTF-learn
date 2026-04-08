@@ -1,0 +1,2 @@
+This is a placeholder file for a steganography challenge.
+Expected demo flag: flag{hidden_message_found}

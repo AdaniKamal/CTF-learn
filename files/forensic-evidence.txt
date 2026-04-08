@@ -1,0 +1,3 @@
+Suspicious activity detected.
+Username seen in logs: analyst
+Expected demo flag: flag{analyst_found_it}
